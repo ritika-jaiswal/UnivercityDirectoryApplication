@@ -1,0 +1,55 @@
+{
+    "countries": [
+      {
+        "countryId": 1,
+        "countryName": "India",
+        "states": [
+          { "stateId": 1, "stateName": "Delhi" },
+          { "stateId": 2, "stateName": "Mumbai" },
+          { "stateId": 3, "stateName": "Karnataka" },
+          { "stateId": 4, "stateName": "Tamil Nadu" }
+        ]
+      },
+      {
+        "countryId": 2,
+        "countryName": "United States",
+        "states": [
+          { "stateId": 1, "stateName": "Texas" },
+          { "stateId": 2, "stateName": "Florida" },
+          { "stateId": 3, "stateName": "California" },
+          { "stateId": 4, "stateName": "New York" }
+        ]
+      },
+      {
+        "countryId": 3,
+        "countryName": "Canada",
+        "states": [
+          { "stateId": 1, "stateName": "Ontario" },
+          { "stateId": 2, "stateName": "Quebec" },
+          { "stateId": 3, "stateName": "British Columbia" },
+          { "stateId": 4, "stateName": "Alberta" }
+        ]
+      },
+      {
+        "countryId": 4,
+        "countryName": "Australia",
+        "states": [
+          { "stateId": 1, "stateName": "New South Wales" },
+          { "stateId": 2, "stateName": "Victoria" },
+          { "stateId": 3, "stateName": "Queensland" },
+          { "stateId": 4, "stateName": "Western Australia" }
+        ]
+      },
+      {
+        "countryId": 5,
+        "countryName": "Germany",
+        "states": [
+          { "stateId": 1, "stateName": "Bavaria" },
+          { "stateId": 2, "stateName": "Berlin" },
+          { "stateId": 3, "stateName": "North Rhine-Westphalia" },
+          { "stateId": 4, "stateName": "Baden-Württemberg" }
+        ]
+      }
+    ]
+  }
+  

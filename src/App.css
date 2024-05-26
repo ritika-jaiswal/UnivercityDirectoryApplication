@@ -1,38 +1,144 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+}
+
 .App {
   text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+select {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#charts {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.chart {
+  margin: 20px 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+.university-table-container {
+  margin-top: 20px;
+}
+
+.select-country-container {
+  margin-bottom: 20px;
+}
+
+.university-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.university-table th,
+.university-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.university-table th {
+  background-color: #f2f2f2;
+}
+
+.university-table th:first-child,
+.university-table td:first-child {
+  width: 10%;
+}
+
+.university-table th:nth-child(2),
+.university-table td:nth-child(2) {
+  width: 30%; /* Adjust width as needed */
+}
+
+.pagination {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 10px;
+}
+
+.page-button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #007bff;
   color: white;
+  border: none;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.page-button:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.page-button.active {
+  background-color: #0056b3;
+  font-weight: bold;
+}
+
+.country-select-container {
+  margin-bottom: 15px;
+}
+
+.country-select-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.country-select {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.country-select option {
+  cursor: pointer;
+}
+
+/* Optional: Style for loading indicator */
+.loading {
+  color: #555;
+  font-style: italic;
 }
